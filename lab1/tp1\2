@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Dev : Lab1</title>
+</head>
+<body style="font-family: Arial; background-color:#e6e6e6;">
+<h1 style="text-align:center;">Welcome to my Web Site</h1>
+<h3 style="text-align:center; color:red;">
+<u>Web Development (Lab1)</u>
+</h3>
+<div style="display:flex; justify-content:space-around; margin-top:40px;">
+<div>
+<p><b style="color:green;">Full name:</b> boutayeb mohammed bachir</p>
+<p><b style="color:green;">Age:</b> 20 years old</p>
+<p><b style="color:green;">Class:</b> 2<sup>nd</sup> LMD computer Science</p>
+<p><b style="color:green;">University:</b> University of EL OUED</p>
+</div>
+<!-- مكان الصورة -->
+<div>
+<img src="PUT-YOUR-IMAGE-HERE" width="350">
+</div>
+</div
+</body>
+</html>
