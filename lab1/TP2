@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TP Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hader>
+      <h1>Welcome to my site</h1>
+    </hader>
+    
+    <h3 class="web-dev">Web Dev</h3>
+    <div class="content"></div>
+    <img src="data:image/png;base64,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" alt="">
+    <ul class="list">
+      <li><span>Full Name:</span>bachir boutayeb</li>
+      <li><span>Age:</span>19</li>
+      <li><span>Class:</span>L02 G02</li>
+      <li><span>University:</span>Hamma Lakhdhar</li>
+    </ul>
+</body>
+</html>
