@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>حاسبة المعدل</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body class="container">
+
+<h1 class="mt-4 text-primary">حاسبة المعدل التراكمي</h1>
+
+<div id="result" class="mt-3"></div>
+
+<form id="gpaForm">
+
+<div id="courses">
+<div class="course-row row mb-2">
+
+<div class="col">
+<input type="text" name="course[]" class="form-control" placeholder="الدورة">
+</div>
+
+<div class="col-2">
+<input type="number" name="credits[]" class="form-control" placeholder="المعامل">
+</div>
+
+<div class="col-2">
+<select name="grade[]" class="form-control">
+<option value="4.0">A</option>
+<option value="3.0">B</option>
+<option value="2.0">C</option>
+<option value="1.0">D</option>
+<option value="0.0">F</option>
+</select>
+</div>
+
+</div>
+</div>
+
+<button type="button" id="addCourse" class="btn btn-secondary">+ إضافة مادة</button>
+<button type="submit" class="btn btn-primary">احسب المعدل</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
