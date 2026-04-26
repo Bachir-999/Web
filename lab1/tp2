@@ -1,0 +1,10 @@
+.web-dev{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.list span{
+    color: green;
+}
